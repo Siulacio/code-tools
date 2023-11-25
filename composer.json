@@ -7,5 +7,9 @@
         "psr-4": {
             "App\\": "src/"
         }
+    },
+    "scripts": {
+        "php-cs-fixer": "vendor/bin/php-cs-fixer fix --config=.php-cs-fixer.php",
+        "php-stan-check": "vendor/bin/phpstan analyse -c phpstan.neon"
     }
 }
